@@ -2,9 +2,11 @@
   <div>
     <navbar></navbar>
     <div class="container">
-      <div class="content is-medium">
+      <div class="content is-medium ">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1530615614/saurabh/monstermash.jpg">
-        <a class="button is-large center-button">Coming Soon</a>
+        <div class="centered-button has-text-centered">
+          <a class="button is-large">Coming Soon</a>
+        </div>
       </div>
     </div>
   </div>
