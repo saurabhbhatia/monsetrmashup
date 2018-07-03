@@ -13,6 +13,7 @@
       <div class="navbar-end">
         <a class="navbar-item" href="">About</a>
         <a class="navbar-item" href="">Contributors</a>
+        <a class="navbar-item" href="">Production team</a>
         <a class="navbar-item" href="">Characters</a>
         <a class="navbar-item" href="">Campaign</a>
         <a class="navbar-item" href="">Contact</a>
