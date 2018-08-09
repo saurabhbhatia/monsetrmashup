@@ -3,10 +3,12 @@
     <navbar></navbar>
     <div class="container">
       <div class="content is-medium ">
-        <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1530615614/saurabh/monstermash.jpg">
+        <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533815233/monster_logo_jtpxfi.png">
         <div class="centered-button has-text-centered">
-          <a class="button is-large">Coming Soon</a>
+          <a class="button is-large">Submission Guidelines</a>
         </div>
+        <br/>
+        <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533814926/moster_mash_up_promo_image_qwolgg.png">
       </div>
     </div>
   </div>
