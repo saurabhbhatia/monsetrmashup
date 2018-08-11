@@ -56,7 +56,7 @@ h1, h2 {
 a {
   color: #42b983;
 }
-.is-medium {
+.content .is-medium {
   font-size: 1.1rem;
 }
 </style>

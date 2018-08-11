@@ -7,7 +7,6 @@ import ProductionTeam from '@/components/ProductionTeam'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
