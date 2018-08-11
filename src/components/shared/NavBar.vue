@@ -11,10 +11,10 @@
 
     <div id="top-menu" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-end">
-        <a class="navbar-item" href="">About</a>
-        <a class="navbar-item" href="">Contributors</a>
-        <a class="navbar-item" href="">Production team</a>
-        <a class="navbar-item" href="">Characters</a>
+        <router-link class="navbar-item"  :to="'/submission-guidelines'">Sumbmission Guidelines</router-link>
+        <!-- <a class="navbar-item" href="">Contributors</a> -->
+        <router-link class="navbar-item" :to="'/production-team'">Production team</router-link>
+        <!-- <a class="navbar-item" href="">Characters</a> -->
         <a class="navbar-item" href="">Campaign</a>
         <a class="navbar-item" href="">Contact</a>
       </div>
