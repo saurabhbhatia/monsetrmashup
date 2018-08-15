@@ -150,4 +150,7 @@ a {
 .content .is-medium {
   font-size: 1.1rem;
 }
+.card-header-title {
+  margin-bottom: none;
+}
 </style>
