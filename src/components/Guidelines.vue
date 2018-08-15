@@ -4,27 +4,50 @@
     <div class="container">
       <div class="content is-medium ">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533815233/monster_logo_jtpxfi.png">
+        <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533814926/moster_mash_up_promo_image_qwolgg.png">
         <br/>
-        <h2>The Premise</h2>
-        <p>A comic anthology using characters and settings from the public domain. Each story will be a crossing of two separate public domain characters.</p>
-        <h2>The Theme</h2>
-        <p>Monsters and creatures from the public domain.</p>
-        <h2>How / What to Submit?</h2>
-        <ul>
-          <li>1-8 pages</li>
-          <li>U.S. Standard format (6.75 x 10.25)</li>
-          <li>1-8 pages</li>
-          <li>CMYK 300 dpi</li>
-          <li>Full Color/Black and White</li>
-          <li>NO 2 page spreads</li>
-          <li>White gutters/margins</li>
-          <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
-        </ul>
-        <h2>Audience</h2>
-        <p>PG to PG-13</p>
-        <h3><router-link :to="'/production-team'">Production team</router-link></h3>
-        <h2>What is Public Domain ?</h2>
-        <p>By definition, it is the state of belonging or being available to the public as a whole and therefore not subject to copyright. This encompasses a wide variety of mediums; books, comics, and movies are the main focus for this project.  Usually this pertains to any material made before copyright law was established in 1921, but there are many properties since 1921 whose copyrights have lapsed or were never established. This includes properties that are part of folklore and ancient legends (i.e. Greek mythology, spiritual text, fairy tales, etc.). Whether or not a property is public domain will be subject to research by the creator, with an assessment by the production team. I recommend starting up your research, as there are some amazing characters just waiting for the right creator.</p>
+        <accordion
+        :dropdown="true"
+        :icon="'caret'"
+        :caretAnimation="{
+            duration: '.2s',
+            timerFunc: 'ease-in-out',
+        }"
+        :slide="{
+            duration: '.5s',
+            timerFunc: 'ease',
+        }"
+        > <!-- The wrapper component for all the items -->
+            <accordion-item>
+                <h4 slot="title">The Premise</h4>
+                <p slot="content">A comic anthology using characters and settings from the public domain. Each story will be a crossing of two separate public domain characters.</p>
+            </accordion-item> <!-- add as many of these items as you need - fill them with content via the slots -->
+            <accordion-item>
+                <h4 slot="title">The Theme</h4>
+                <p slot="content">Monsters and creatures from the public domain.</p>
+            </accordion-item>
+            <accordion-item>
+                <h4 slot="title">How / What to Submit?</h4>
+                <ul slot="content">
+                  <li>1-8 pages</li>
+                  <li>U.S. Standard format (6.75 x 10.25)</li>
+                  <li>1-8 pages</li>
+                  <li>CMYK 300 dpi</li>
+                  <li>Full Color/Black and White</li>
+                  <li>NO 2 page spreads</li>
+                  <li>White gutters/margins</li>
+                  <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
+                </ul>
+            </accordion-item>
+            <accordion-item>
+              <h4 slot="title">Audience</h4>
+              <p slot="content">PG to PG-13</p>
+            </accordion-item>
+            <accordion-item>
+              <h4 slot="title">What is Public Domain ?</h4>
+              <p slot="content">By definition, it is the state of belonging or being available to the public as a whole and therefore not subject to copyright. This encompasses a wide variety of mediums; books, comics, and movies are the main focus for this project.  Usually this pertains to any material made before copyright law was established in 1921, but there are many properties since 1921 whose copyrights have lapsed or were never established. This includes properties that are part of folklore and ancient legends (i.e. Greek mythology, spiritual text, fairy tales, etc.). Whether or not a property is public domain will be subject to research by the creator, with an assessment by the production team. I recommend starting up your research, as there are some amazing characters just waiting for the right creator.</p>
+            </accordion-item>
+        </accordion>
       </div>
     </div>
     <site-footer></site-footer>
@@ -34,12 +57,15 @@
 <script>
 import NavBar from '../components/shared/NavBar'
 import Footer from '../components/shared/Footer'
+import { BulmaAccordion, BulmaAccordionItem } from 'vue-bulma-accordion'
 
 export default {
   name: 'Guidelines',
   components: {
     'navbar': NavBar,
-    'site-footer': Footer
+    'site-footer': Footer,
+    'accordion': BulmaAccordion,
+    'accordion-item': BulmaAccordionItem
   },
   data () {
     return {
