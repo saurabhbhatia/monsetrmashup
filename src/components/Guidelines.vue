@@ -85,6 +85,32 @@
               <p slot="content">Creators can buy books at cost plus shipping. Though it will be more work on our part, we are willing to do it for the group in the name of collaboration. Personally, we’re not in it for the money, but the experience. However, we completely understand the need to be compensated and  feel this is the most important part.  EVERYONE will have an equal opportunity to make money off of the books.</p>
               <p slot="content">So in the end, this model is for creators wanting to collaborate together to make a book for personal sales (i.e. conventions and/or online store).  We can’t possibly predict how much we could make from Kickstarter, so we cannot guarantee a substantial payout, but we do hope it’s the compensation you feel that you deserve. We are compelled to be 100 percent honest, but if everyone pitches in and does their part, rising tides raise all ships.</p>
             </accordion-item>
+            <accordion-item>
+              <h4 slot="title">Sounds good…but how do I trust you’ll compensate accordingly?</h4>
+              <p slot="content">We have a written contractual agreement that puts what I stated above in writing. It will also include the print rights with retained ownership by the author.  We’d much prefer to work on the honor system, but we wish to alleviate any worries. The contract isn’t so much for us to get what we want, but for you to get what you deserve.</p>
+            </accordion-item>
+            <accordion-item>
+              <h4 slot="title">So what does the production team get out of it for all the extra work?</h4>
+              <p slot="content">Members of the team will be submitting work as well as putting together the book. As stated before, we are not in it for the money… but we too will want to be compensated, although our plan is to give the greatest portion to the creators. This is very important to us.</p>
+              <p slot="content">The profits will be divided as such:</p>
+              <ul>
+                <li>75% - Creators</li>
+                <li>10% - Creative leads (5% times 2)</li>
+                <li>5% - Editor</li>
+                <li>5% - Production lead</li>
+                <li>3% - Cover Illustrator</li>
+                <li>2% - Web Designer</li>          
+              </ul>
+            </accordion-item>
+            <accordion-item>
+              <h4 slot="title">Can I be part of the production team?</h4>
+              <p slot="content">We have a full team as is but will be happy to have anyone involved who wants to be. Just propose something you’d like to do. But be warned, it will be only for exposure (*shudders again*).</p>
+            </accordion-item>
+            <accordion-item>
+              <h4 slot="title">Final thought</h4>
+              <p slot="content">This is how we feel an anthology should be run. Everything out in the open and beneficial for everyone involved.  We’ll make ourselves available as much as possible and will ALWAYS be supportive collaborators. We truly hope you can agree and be part of this collective. This has the potential to be something really amazing.</p>
+              <h3 slot="content">Now… Let’s make some comics!</h3>
+            </accordion-item>
         </accordion>
       </div>
     </div>
