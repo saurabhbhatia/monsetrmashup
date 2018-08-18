@@ -37,6 +37,7 @@
                   <li>NO 2 page spreads</li>
                   <li>White gutters/margins</li>
                   <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
+                  <li><router-link :to="'/submission'">Follow this link to make the submission.</router-link></li>
                 </ul>
             </accordion-item>
             <accordion-item>
@@ -99,7 +100,7 @@
                 <li>5% - Editor</li>
                 <li>5% - Production lead</li>
                 <li>3% - Cover Illustrator</li>
-                <li>2% - Web Designer</li>          
+                <li>2% - Web Designer</li>
               </ul>
             </accordion-item>
             <accordion-item>

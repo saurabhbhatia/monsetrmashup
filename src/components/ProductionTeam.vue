@@ -2,27 +2,123 @@
   <div>
     <navbar></navbar>
     <div class="container">
-      <div class="content is-medium ">
-        <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533815233/monster_logo_jtpxfi.png">
-        <br/>
-        <h2>Production Team</h2>
-        <p>A comic anthology using characters and settings from the public domain. Each story will be a crossing of two separate public domain characters.</p>
-        <h2>The Theme</h2>
-        <p>Monsters and creatures from the public domain.</p>
-        <h2>How / What to Submit?</h2>
-        <ul>
-          <li>1-8 pages</li>
-          <li>U.S. Standard format (6.75 x 10.25)</li>
-          <li>1-8 pages</li>
-          <li>CMYK 300 dpi</li>
-          <li>Full Color/Black and White</li>
-          <li>NO 2 page spreads</li>
-          <li>White gutters/margins</li>
-          <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
-        </ul>
-        <h2>Audience</h2>
-        <p>PG to PG-13</p>
-        <h2><router-link :to="'/production-team'">Production team</router-link></h2>
+      <div class="content is-large">
+        <h1>Production Team</h1>
+      </div>
+      <div class="column is-one-third">
+        <!-- card start-->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Eddy Hedington</p>
+                <p class="subtitle is-6">Creative Lead</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+      </div>
+      <div class="column is-one-third">
+        <!-- card start-->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Travis Alexander</p>
+                <p class="subtitle is-6">Creative Lead</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+      </div>
+      <div class="column is-one-third">
+        <!-- card start-->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Rosa Devine</p>
+                <p class="subtitle is-6">Production Lead</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+      </div>
+      <div class="column is-one-third">
+        <!-- card start-->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Angela Kern</p>
+                <p class="subtitle is-6">Lead Editor</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
+      </div>
+      <div class="column is-one-third">
+        <!-- card start-->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Saurabh Bhatia</p>
+                <p class="subtitle is-6">Web Designer</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus nec iaculis mauris.
+            </div>
+          </div>
+        </div>
+        <!-- card end -->
       </div>
     </div>
     <site-footer></site-footer>
@@ -54,7 +150,7 @@ h1, h2 {
 a {
   color: #42b983;
 }
-.is-medium {
-  font-size: 1.1rem;
+.content h1 {
+  text-align: center;
 }
 </style>
