@@ -5,120 +5,124 @@
       <div class="content is-large">
         <h1>Production Team</h1>
       </div>
-      <div class="column is-one-third">
-        <!-- card start-->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Eddy Hedington</p>
-                <p class="subtitle is-6">Creative Lead</p>
+      <div class="level">
+        <div class="column is-one-third">
+          <!-- card start-->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Eddy Hedington</p>
+                  <p class="subtitle is-6">Creative Lead</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
               </div>
             </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
+          </div>
+          <!-- card end -->
+        </div>
+        <div class="column is-one-third">
+          <!-- card start-->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Travis Alexander</p>
+                  <p class="subtitle is-6">Creative Lead</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+              </div>
             </div>
           </div>
+          <!-- card end -->
         </div>
-        <!-- card end -->
+        <div class="column is-one-third">
+          <!-- card start-->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Rosa Devine</p>
+                  <p class="subtitle is-6">Production Lead</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+              </div>
+            </div>
+          </div>
+          <!-- card end -->
+        </div>
       </div>
-      <div class="column is-one-third">
-        <!-- card start-->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Travis Alexander</p>
-                <p class="subtitle is-6">Creative Lead</p>
+      <div class="level-left">      
+        <div class="column is-one-third">
+          <!-- card start-->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Angela Kern</p>
+                  <p class="subtitle is-6">Lead Editor</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
               </div>
             </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-            </div>
           </div>
+          <!-- card end -->
         </div>
-        <!-- card end -->
-      </div>
-      <div class="column is-one-third">
-        <!-- card start-->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Rosa Devine</p>
-                <p class="subtitle is-6">Production Lead</p>
+        <div class="column is-one-third">
+          <!-- card start-->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Saurabh Bhatia</p>
+                  <p class="subtitle is-6">Web Designer</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
               </div>
             </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-            </div>
           </div>
+          <!-- card end -->
         </div>
-        <!-- card end -->
-      </div>
-      <div class="column is-one-third">
-        <!-- card start-->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Angela Kern</p>
-                <p class="subtitle is-6">Lead Editor</p>
-              </div>
-            </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-            </div>
-          </div>
-        </div>
-        <!-- card end -->
-      </div>
-      <div class="column is-one-third">
-        <!-- card start-->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Saurabh Bhatia</p>
-                <p class="subtitle is-6">Web Designer</p>
-              </div>
-            </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-            </div>
-          </div>
-        </div>
-        <!-- card end -->
       </div>
     </div>
     <site-footer></site-footer>
