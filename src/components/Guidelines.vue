@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar></navbar>
-    <slider class="hero is-large" animation="fade">
+    <slider class="hero is-small" animation="fade">
       <p class="slide" v-if="!slides.length">Loading...</p>
       <slider-item v-for="(i, index) in slides" :key="index">
         <div :style="i">

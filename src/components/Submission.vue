@@ -2,6 +2,21 @@
   <div>
     <navbar></navbar>
     <div class="container">
+      <div class="content">
+        <h3>Submissions open September 1st 2018 &amp; close September 29th 2018</h3>
+        <p>
+          <ul>
+            <li><strong>Premise:</strong> A comic anthology using characters and settings from the public domain. Each story will be a
+        crossing of two separate public domain characters.</li>
+            <li><strong>What we are looking for:</strong> Sequential art using any
+        monster or creature from the public domain encountering or assisting a character from a separate
+        public domain. Monsters and creatures are open to interpretation. The monster does not need to be the
+        villain of the story nor does the story need a hero, just use a monster or creature to adhere to a
+        common theme.</li>
+            <li>Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines.</li>
+          </ul>
+          </p>
+      </div>
       <iframe class="content full-width" src="https://docs.google.com/forms/d/e/1FAIpQLScK7RLoJe_qTuDhRS4mFwcIHsw8Uuvi8A4gH_XafJBJ1tpqtQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
     <site-footer></site-footer>
@@ -28,5 +43,8 @@ export default {
 <style>
 .full-width {
   width: 100%;
+}
+.content h3 {
+  text-align: center;
 }
 </style>

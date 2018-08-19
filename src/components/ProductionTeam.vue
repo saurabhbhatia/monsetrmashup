@@ -34,7 +34,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534648389/travis_dnwj7a.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -82,7 +82,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534649614/angie_evklmf.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -105,7 +105,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534649016/68931_lhdswr.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -156,5 +156,8 @@ a {
 }
 .content h1 {
   text-align: center;
+}
+.column {
+  padding: 1.75rem;
 }
 </style>
