@@ -17,7 +17,7 @@
         <router-link class="navbar-item" :to="'/production-team'">Production team</router-link>
         <!-- <a class="navbar-item" href="">Characters</a> -->
         <a class="navbar-item" href="">Campaign</a>
-        <a class="navbar-item" href="">Contact</a>
+        <router-link class="navbar-item" :to="'/contact'">Contact</router-link>
       </div>
     </div>
   </nav>

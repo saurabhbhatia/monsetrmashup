@@ -13,7 +13,10 @@
         public domain. Monsters and creatures are open to interpretation. The monster does not need to be the
         villain of the story nor does the story need a hero, just use a monster or creature to adhere to a
         common theme.</li>
-            <li>Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines.</li>
+            <li><strong>Submission:</strong> 1-8 pages, U.S. Standard format (6.75x10.25), 300 dpi CMYKFull Color/Black
+            and White.</li>
+            <li><strong>Audience:</strong> PG to PG-13</li>
+            <li>Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines or fill out the form below if you're ready!</li>
           </ul>
           </p>
       </div>
