@@ -4,9 +4,9 @@
     <slider class="hero is-large" animation="fade">
       <p class="slide" v-if="!slides.length">Loading...</p>
       <slider-item v-for="(i, index) in slides" :key="index">
-        <!-- <div :style="i">
-          <p class="slide">Page{{ index + 1 }}</p>
-        </div> -->
+        <div :style="i">
+          <!-- <p class="slide">Page{{ index + 1 }}</p> -->
+        </div>
       </slider-item>
     </slider>
     <div class="container">
@@ -148,7 +148,7 @@ export default {
     setTimeout(() => {
       this.slides = [
         { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/c_fill,h_300,w_1500/v1534645457/Pieter_Lastman_-_Jonah_and_the_Whale_-_Google_Art_Project_oyeaen.jpg)', width: '100%', height: '100%' },
-        { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/c_fit,h_300,w_1500/v1534646514/SlaveGirlComics02027_mfw0dp.jpg)', width: '100%', height: '100%' }
+        { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/c_fill,h_300,w_1500/v1534646514/SlaveGirlComics02027_mfw0dp.jpg)', width: '100%', height: '100%' }
       ]
     }, 1000)
   },
