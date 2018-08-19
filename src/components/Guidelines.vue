@@ -1,6 +1,14 @@
 <template>
   <div>
     <navbar></navbar>
+    <slider class="hero is-large" animation="fade">
+      <p class="slide" v-if="!slides.length">Loading...</p>
+      <slider-item v-for="(i, index) in slides" :key="index">
+        <!-- <div :style="i">
+          <p class="slide">Page{{ index + 1 }}</p>
+        </div> -->
+      </slider-item>
+    </slider>
     <div class="container">
       <div class="content is-medium ">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533815233/monster_logo_jtpxfi.png">
@@ -124,6 +132,7 @@
 import NavBar from '../components/shared/NavBar'
 import Footer from '../components/shared/Footer'
 import { BulmaAccordion, BulmaAccordionItem } from 'vue-bulma-accordion'
+import { Slider, SliderItem } from 'vue-easy-slider'
 
 export default {
   name: 'Guidelines',
@@ -131,10 +140,21 @@ export default {
     'navbar': NavBar,
     'site-footer': Footer,
     'accordion': BulmaAccordion,
-    'accordion-item': BulmaAccordionItem
+    'accordion-item': BulmaAccordionItem,
+    'slider': Slider,
+    'slider-item': SliderItem
+  },
+  mounted () {
+    setTimeout(() => {
+      this.slides = [
+        { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/c_fill,h_300,w_1500/v1534645457/Pieter_Lastman_-_Jonah_and_the_Whale_-_Google_Art_Project_oyeaen.jpg)', width: '100%', height: '100%' },
+        { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/c_fit,h_300,w_1500/v1534646514/SlaveGirlComics02027_mfw0dp.jpg)', width: '100%', height: '100%' }
+      ]
+    }, 1000)
   },
   data () {
     return {
+      slides: []
     }
   }
 }
@@ -153,5 +173,10 @@ a {
 }
 .card-header-title {
   margin-bottom: none;
+}
+.slide {
+  line-height: 280px;
+  font-size: 5rem;
+  text-align: center;
 }
 </style>
