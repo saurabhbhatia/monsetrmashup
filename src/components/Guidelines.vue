@@ -11,7 +11,7 @@
     </slider>
     <div class="container">
       <div class="content is-medium ">
-        <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533815233/monster_logo_jtpxfi.png">
+        <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534653212/moster_logo_ver_2_png_qsrmlc.png">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533814926/moster_mash_up_promo_image_qwolgg.png">
         <br/><br/>
         <accordion

@@ -157,7 +157,7 @@ a {
 .content h1 {
   text-align: center;
 }
-.column {
-  padding: 1.75rem;
+.image img {
+  height: auto;
 }
 </style>
