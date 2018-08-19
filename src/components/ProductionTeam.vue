@@ -76,7 +76,7 @@
           <!-- card end -->
         </div>
       </div>
-      <div class="level-left">      
+      <div class="level-left">
         <div class="column is-one-third">
           <!-- card start-->
           <div class="card">
