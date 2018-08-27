@@ -147,7 +147,7 @@ export default {
   mounted () {
     setTimeout(() => {
       this.slides = [
-        { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/c_fill,h_300,w_1500/v1534645457/Pieter_Lastman_-_Jonah_and_the_Whale_-_Google_Art_Project_oyeaen.jpg)', width: '100%', height: '100%' },
+        { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/v1535407983/cropped_image_zv68uh.png)', width: '100%', height: '100%' },
         { background: 'url(https://res.cloudinary.com/drg9hguhu/image/upload/c_fill,h_300,w_1500/v1534646514/SlaveGirlComics02027_mfw0dp.jpg)', width: '100%', height: '100%' }
       ]
     }, 1000)
