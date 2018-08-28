@@ -11,7 +11,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535449908/eddie_eyksmz.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -20,10 +20,6 @@
                   <p class="title is-4">Eddy Hedington</p>
                   <p class="subtitle is-6">Creative Lead</p>
                 </div>
-              </div>
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
               </div>
             </div>
           </div>
@@ -44,10 +40,6 @@
                   <p class="subtitle is-6">Creative Lead</p>
                 </div>
               </div>
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
-              </div>
             </div>
           </div>
           <!-- card end -->
@@ -66,10 +58,6 @@
                   <p class="title is-4">Rosa Devine</p>
                   <p class="subtitle is-6">Production Lead</p>
                 </div>
-              </div>
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
               </div>
             </div>
           </div>
@@ -92,10 +80,6 @@
                   <p class="subtitle is-6">Lead Editor</p>
                 </div>
               </div>
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
-              </div>
             </div>
           </div>
           <!-- card end -->
@@ -114,10 +98,6 @@
                   <p class="title is-4">Saurabh Bhatia</p>
                   <p class="subtitle is-6">Web Designer</p>
                 </div>
-              </div>
-              <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
               </div>
             </div>
           </div>
@@ -156,8 +136,5 @@ a {
 }
 .content h1 {
   text-align: center;
-}
-.image img {
-  height: auto;
 }
 </style>
