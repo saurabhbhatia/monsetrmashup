@@ -1,14 +1,18 @@
 <template>
   <div>
     <navbar></navbar>
-    <slider class="hero is-small" animation="fade">
-      <p class="slide" v-if="!slides.length">Loading...</p>
-      <slider-item v-for="(i, index) in slides" :key="index">
-        <div :style="i">
-          <!-- <p class="slide">Page{{ index + 1 }}</p> -->
-        </div>
-      </slider-item>
-    </slider>
+    <carousel class="hero is-small"
+      :autoplay="true"
+      :navigationEnabled="true"
+      :scrollPerPage="true"
+      :perPage=1>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535407983/cropped_image_zv68uh.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/c_fill,h_300,w_1500/v1534646514/SlaveGirlComics02027_mfw0dp.jpg">
+      </slide>
+    </carousel>
     <div class="container">
       <div class="content is-medium ">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534653212/moster_logo_ver_2_png_qsrmlc.png">
@@ -132,7 +136,7 @@
 import NavBar from '../components/shared/NavBar'
 import Footer from '../components/shared/Footer'
 import { BulmaAccordion, BulmaAccordionItem } from 'vue-bulma-accordion'
-import { Slider, SliderItem } from 'vue-easy-slider'
+import { Carousel, Slide } from 'vue-carousel'
 
 export default {
   name: 'Guidelines',
@@ -141,8 +145,8 @@ export default {
     'site-footer': Footer,
     'accordion': BulmaAccordion,
     'accordion-item': BulmaAccordionItem,
-    'slider': Slider,
-    'slider-item': SliderItem
+    'carousel': Carousel,
+    'slide': Slide
   },
   mounted () {
     setTimeout(() => {
@@ -175,8 +179,6 @@ a {
   margin-bottom: none;
 }
 .slide {
-  line-height: 280px;
-  font-size: 5rem;
-  text-align: center;
+  width: 100%;
 }
 </style>
