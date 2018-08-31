@@ -3,6 +3,7 @@
     <navbar></navbar>
     <div class="container">
       <div class="content">
+        <h1 class="has-text-centered">Submission</h1>
         <h3>Submissions open September 3rd 2018 &amp; close September 30th 2018</h3>
         <p>
           <ul>
