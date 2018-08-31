@@ -3,7 +3,6 @@
     <navbar></navbar>
     <div class="container">
       <div class="content">
-        <h1 class="has-text-centered">Submission</h1>
         <h3>Submissions open September 3rd 2018 &amp; close September 30th 2018</h3>
         <p>
           <ul>
@@ -14,8 +13,17 @@
         public domain. Monsters and creatures are open to interpretation. The monster does not need to be the
         villain of the story nor does the story need a hero, just use a monster or creature to adhere to a
         common theme.</li>
-            <li><strong>Submission:</strong> 1-8 pages, U.S. Standard format (6.75x10.25), 300 dpi CMYKFull Color/Black
-            and White.</li>
+            <li><strong>Submission Specifications:</strong>
+              <ul>
+                <li>1-8 pages</li>
+                <li>U.S. Standard format (6.75 x 10.25)</li>
+                <li>CMYK 300 dpi</li>
+                <li>Full Color/Black and White</li>
+                <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
+                <li>Stories must be complete and self contained with a beginning, a middle and an end.</li>
+                <li>You may use OC characters BUT it still must adhere to the 2 PD character theme.</li>
+              </ul>
+            </li>
             <li><strong>Audience:</strong> PG to PG-13</li>
             <li>Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines or fill out the form below if you're ready!</li>
           </ul>
