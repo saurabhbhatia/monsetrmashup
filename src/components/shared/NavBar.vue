@@ -2,6 +2,9 @@
   <nav class="navbar is-white">
     <div class="navbar-brand">
       <a class="navbar-item" href="/"><img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534049429/GCC_full_logo_lfspkq.png"></a>
+      <router-link class="navbar-item" :to="'/submission'">
+        <button class="button is-black is-large">Make a submission</button>
+      </router-link>
       <div class="navbar-burger burger" data-target="top-menu" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
         <span></span>
         <span></span>
