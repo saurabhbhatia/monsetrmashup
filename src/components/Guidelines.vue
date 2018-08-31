@@ -58,7 +58,7 @@
     <div class="container">
       <div class="content is-medium ">
         <div class="has-text-centered">
-          <router-link :to="'/submission'" class="button is-link is-large">Make a submission</router-link>
+          <router-link :to="'/submission'" class="button is-primary is-large">Make a submission</router-link>
         </div>
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534653212/moster_logo_ver_2_png_qsrmlc.png">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533814926/moster_mash_up_promo_image_qwolgg.png">
@@ -96,7 +96,7 @@
                   <li>You may use OC characters BUT it still must adhere to the 2 PD character theme.</li>
                 </ul>
                 <div slot="content" class="has-text-centered">
-                  <router-link :to="'/submission'" class="button center-button is-link is-large">Make a submission</router-link>
+                  <router-link :to="'/submission'" class="button center-button is-primary is-large">Make a submission</router-link>
                 </div>
             </accordion-item>
             <accordion-item>
