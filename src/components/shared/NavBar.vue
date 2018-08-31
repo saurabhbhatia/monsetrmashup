@@ -36,5 +36,7 @@ export default {
 </script>
 
 <style>
-
+.navbar-end {
+  margin-right: 20px;
+}
 </style>
