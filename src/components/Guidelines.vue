@@ -39,6 +39,21 @@
       <slide>
         <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708945/Layer_12_pr5t78.png">
       </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708955/Layer_11_easvad.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708956/Layer_15_brtjth.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708963/Layer_1_qcyk4t.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708964/Layer_16_g1twat.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708972/Layer_18_mtkdvb.png">
+      </slide>
     </carousel>
     <div class="container">
       <div class="content is-medium ">
