@@ -7,10 +7,37 @@
       :scrollPerPage="true"
       :perPage=1>
       <slide>
-        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535407983/cropped_image_zv68uh.png">
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708867/Layer_8_wchqev.png">
       </slide>
       <slide>
-        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/c_fill,h_300,w_1500/v1534646514/SlaveGirlComics02027_mfw0dp.jpg">
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708877/Layer_9_gc9hd6.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708877/Layer_2_fy80nz.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708883/Layer_3_fwxqfq.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708889/Layer_6_lyqjnl.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708893/Layer_4_bvxgc9.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708906/Layer_13_vkqp9n.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708923/Layer_14_srujuy.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708937/Layer_5_cgb9xw.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708942/Layer_17_b9jmfb.png">
+      </slide>
+      <slide>
+        <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708945/Layer_12_pr5t78.png">
       </slide>
     </carousel>
     <div class="container">
