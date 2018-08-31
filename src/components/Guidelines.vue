@@ -57,6 +57,9 @@
     </carousel>
     <div class="container">
       <div class="content is-medium ">
+        <div class="has-text-centered">
+          <router-link :to="'/submission'" class="button is-link is-large">Make a submission</router-link>
+        </div>
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534653212/moster_logo_ver_2_png_qsrmlc.png">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1533814926/moster_mash_up_promo_image_qwolgg.png">
         <br/><br/>
@@ -88,11 +91,13 @@
                   <li>1-8 pages</li>
                   <li>CMYK 300 dpi</li>
                   <li>Full Color/Black and White</li>
-                  <li>NO 2 page spreads</li>
-                  <li>White gutters/margins</li>
                   <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
-                  <li><router-link :to="'/submission'">Follow this link to make the submission.</router-link></li>
+                  <li>Stories must be complete and self contained with a beginning, a middle and an end.</li>
+                  <li>You may use OC characters BUT it still must adhere to the 2 PD character theme.</li>
                 </ul>
+                <div slot="content" class="has-text-centered">
+                  <router-link :to="'/submission'" class="button center-button is-link is-large">Make a submission</router-link>
+                </div>
             </accordion-item>
             <accordion-item>
               <h4 slot="title">Audience</h4>
@@ -222,5 +227,8 @@ a {
 }
 .slide {
   width: 100%;
+}
+.center-button {
+  text-align: center;
 }
 </style>

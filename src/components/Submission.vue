@@ -3,7 +3,7 @@
     <navbar></navbar>
     <div class="container">
       <div class="content">
-        <h3>Submissions open September 1st 2018 &amp; close September 29th 2018</h3>
+        <h3>Submissions open September 3rd 2018 &amp; close September 30th 2018</h3>
         <p>
           <ul>
             <li><strong>Premise:</strong> A comic anthology using characters and settings from the public domain. Each story will be a
