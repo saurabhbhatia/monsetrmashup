@@ -10,7 +10,7 @@
           <!-- card start-->
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-4by4">
                 <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535449908/eddie_eyksmz.jpg" alt="Placeholder image">
               </figure>
             </div>
@@ -28,8 +28,8 @@
         <div class="column is-one-third">
           <!-- card start-->
           <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
+            <div class="card-content">
+              <figure class="image is-4by4">
                 <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534648389/travis_dnwj7a.jpg" alt="Placeholder image">
               </figure>
             </div>
@@ -48,7 +48,7 @@
           <!-- card start-->
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-4by4">
                 <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535021724/rosa_eibv1s.jpg" alt="Placeholder image">
               </figure>
             </div>
@@ -69,7 +69,7 @@
           <!-- card start-->
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-4by4">
                 <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534649614/angie_evklmf.jpg" alt="Placeholder image">
               </figure>
             </div>
@@ -88,7 +88,7 @@
           <!-- card start-->
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-4by4">
                 <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534649016/68931_lhdswr.jpg" alt="Placeholder image">
               </figure>
             </div>
@@ -136,5 +136,8 @@ a {
 }
 .content h1 {
   text-align: center;
+}
+.is-horizontal-center {
+  justify-content: center;
 }
 </style>
