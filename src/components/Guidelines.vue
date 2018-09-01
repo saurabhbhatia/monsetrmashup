@@ -7,16 +7,6 @@
       :scrollPerPage="true"
       :perPage=1>
       <slide>
-        <div class="content has-text-centered">
-          <h1>Calling all Creators!</h1>
-          <h1>Submissions open September 3rd 2018 &amp; close October 30th 2018</h1>
-          <br/>
-          <router-link :to="'/submission'" class="button is-black is-large">Make a submission</router-link>
-          <br/>
-          <h1>Or Read the Guidelines below.</h1>
-        </div>
-      </slide>
-      <slide>
         <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708867/Layer_8_wchqev.png">
       </slide>
       <slide>
