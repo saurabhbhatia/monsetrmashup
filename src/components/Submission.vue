@@ -9,6 +9,7 @@
             <li><strong>How to Submit?</strong> Fill out the form below to make a submission.</li>
             <li><strong>Premise:</strong> A comic anthology using characters and settings from the public domain. Each story will be a
         crossing of two separate public domain characters.</li>
+            <li><strong>Audience:</strong> PG to PG-13</li>
             <li><strong>What we are looking for:</strong> Sequential art using any
         monster or creature from the public domain encountering or assisting a character from a separate
         public domain. Monsters and creatures are open to interpretation. The monster does not need to be the
@@ -25,8 +26,7 @@
                 <li>You may use OC characters BUT it still must adhere to the 2 PD character theme.</li>
               </ul>
             </li>
-            <li><strong>Audience:</strong> PG to PG-13</li>
-            <li><strong>Submission Guidelines:</strong> Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines or fill out the form below if you're ready!</li>
+            <li><strong>Detailed Submission Guidelines:</strong> Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines or fill out the form below if you're ready!</li>
           </ul>
           </p>
       </div>
