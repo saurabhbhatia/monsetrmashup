@@ -3,9 +3,10 @@
     <navbar></navbar>
     <div class="container">
       <div class="content">
-        <h2>Submissions open September 3rd 2018 &amp; close September 30th 2018</h2>
+        <h2>Submissions open September 3rd 2018 &amp; close October 30th 2018</h2>
         <p>
           <ul>
+            <li><strong>How to Submit?</strong>- Fill out the form below to make a submission.</li>
             <li><strong>Premise:</strong> A comic anthology using characters and settings from the public domain. Each story will be a
         crossing of two separate public domain characters.</li>
             <li><strong>What we are looking for:</strong> Sequential art using any

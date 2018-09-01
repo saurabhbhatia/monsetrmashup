@@ -8,9 +8,8 @@
       :perPage=1>
       <slide>
         <div class="content has-text-centered">
-          <br/>
           <h1>Calling all Creators!</h1>
-          <h1>Submissions open September 3rd 2018 &amp; close September 30th 2018</h1>
+          <h1>Submissions open September 3rd 2018 &amp; close October 30th 2018</h1>
           <br/>
           <router-link :to="'/submission'" class="button is-black is-large">Make a submission</router-link>
           <br/>
@@ -69,7 +68,7 @@
     <div class="container">
       <div class="content is-medium ">
         <div class="has-text-centered">
-          <h3>Submissions open September 3rd 2018 &amp; close September 30th 2018</h3>
+          <h3>Submissions open September 3rd 2018 &amp; close October 30th 2018</h3>
           <router-link :to="'/submission'" class="button is-black is-large">Make a submission</router-link>
         </div>
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534653212/moster_logo_ver_2_png_qsrmlc.png">
