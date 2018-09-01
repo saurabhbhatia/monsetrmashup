@@ -6,7 +6,7 @@
         <h2>Submissions open September 3rd 2018 &amp; close October 30th 2018</h2>
         <p>
           <ul>
-            <li><strong>How to Submit?</strong>- Fill out the form below to make a submission.</li>
+            <li><strong>How to Submit?</strong> Fill out the form below to make a submission.</li>
             <li><strong>Premise:</strong> A comic anthology using characters and settings from the public domain. Each story will be a
         crossing of two separate public domain characters.</li>
             <li><strong>What we are looking for:</strong> Sequential art using any
@@ -26,7 +26,7 @@
               </ul>
             </li>
             <li><strong>Audience:</strong> PG to PG-13</li>
-            <li>Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines or fill out the form below if you're ready!</li>
+            <li><strong>Submission Guidelines:</strong> Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines or fill out the form below if you're ready!</li>
           </ul>
           </p>
       </div>
