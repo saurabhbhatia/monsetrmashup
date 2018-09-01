@@ -105,6 +105,7 @@
                   <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
                   <li>Stories must be complete and self contained with a beginning, a middle and an end.</li>
                   <li>You may use OC characters BUT it still must adhere to the 2 PD character theme.</li>
+                  <li>When you're ready with your submission, head over to the submission page (by clicking 'Make a submission' button or submission link in the menu) and fill out the form.</li>
                 </ul>
                 <div slot="content" class="has-text-centered">
                   <router-link :to="'/submission'" class="button center-button is-black is-large">Make a submission</router-link>
