@@ -155,7 +155,7 @@
               <h4 slot="title">So what does the production team get out of it for all the extra work?</h4>
               <p slot="content">Members of the team will be submitting work as well as putting together the book. As stated before, we are not in it for the money… but we too will want to be compensated, although our plan is to give the greatest portion to the creators. This is very important to us.</p>
               <p slot="content">The profits will be divided as such:</p>
-              <ul>
+              <ul slot="content">
                 <li>75% - Creators</li>
                 <li>10% - Creative leads (5% times 2)</li>
                 <li>5% - Editor</li>
