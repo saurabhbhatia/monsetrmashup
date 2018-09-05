@@ -2,7 +2,7 @@
   <div>
     <navbar></navbar>
     <div class="container">
-      <div class="content">
+      <div class="content center-content">
         <h2>Submissions open September 3rd 2018 &amp; close October 30th 2018</h2>
         <p>
           Head to <router-link :to="'/'">home</router-link> page to read the detailed submission guidelines or fill out the form below if you're ready!
@@ -35,7 +35,7 @@ export default {
 .full-width {
   width: 100%;
 }
-.content {
+.center-content {
   text-align: center;
 }
 </style>
