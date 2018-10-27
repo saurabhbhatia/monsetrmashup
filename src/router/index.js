@@ -4,6 +4,7 @@ import Submission from '@/components/Submission'
 import Contact from '@/components/Contact'
 import Guidelines from '@/components/Guidelines'
 import ProductionTeam from '@/components/ProductionTeam'
+import InProduction from '@/components/InProduction'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/in-production',
+      name: 'InProduction',
+      component: InProduction
     }
   ]
 })
