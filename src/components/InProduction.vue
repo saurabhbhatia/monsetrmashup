@@ -77,13 +77,13 @@
                 <h4 slot="title">Submission Specs</h4>
                 <ul slot="content">
                   <li>1-8 pages</li>
-                  <li>U.S. Standard format (6.75 x 10.25)</li>
-                  <li>1-8 pages</li>
-                  <li>CMYK 300 dpi</li>
+                  <li>U.S. Standard format (6.75 x 10.25). Check the template <a href="https://ka-blam.com/main/standard-sized-page-template/" target="blank">here</a>.</li>
+                  <!-- <li>1-8 pages</li> -->
+                  <li>CMYK 300 dpi TIFF files.</li>
                   <li>Full Color/Black and White</li>
                   <li>NO 2 page spreads</li>
                   <li>Full bleeds are allowed, but keep the essentials within the live area.</li>
-                  <li>Title and credits need to be applied to the art. Up to creator discretion where it is placed.</li>
+                  <li>Title and credits need to be applied to the art within the story. Up to creator discretion where it is placed.</li>
                   <li>PG-13-Keep gore and sexual suggestions to an absolute minimum. NO cussing.</li>
                   <li>Please respect all deadlines. We gladly welcome early submissions.</li>
                   <li>All files will be sent via Dropbox link.</li>
@@ -96,10 +96,10 @@
               <h4 slot="title">Requests</h4>
               <ul slot="content">
                 <li>NO cliffhangers or callbacks. Must be self-contained and have a well-defined ending.</li>
-                <li>Do not add other public domain characters unless you have asked for approval prior.</li>
+                <li>Do not add other public domain characters unless you have asked for approval prior as not to encroach on other's characters.</li>
                 <li>Only do digital lettering. We’d like to be able to request changes if needed.</li>
                 <li>Lettering will be held to a high standard. We will be sticklers for quality lettering.</li>
-                <li>Please do all original art in the 11x17 format BEFORE you scale down to the U.S. Standard submission.</li>
+                <!-- <li>Please do all original art in the 11x17 format BEFORE you scale down to the U.S. Standard submission.</li> -->
                 <li>Be open to suggestions made by the production team, editor and the creative community.</li>
               </ul>
             </accordion-item>
