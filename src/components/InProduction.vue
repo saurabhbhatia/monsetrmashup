@@ -57,14 +57,10 @@
     </carousel>
     <div class="container">
       <div class="content is-medium ">
-        <div class="has-text-centered">
-          <h3>Submissions open September 3rd 2018 &amp; close October 30th 2018</h3>
-          <router-link :to="'/submission'" class="button is-black is-large">Make a submission</router-link>
-        </div>
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534653212/moster_logo_ver_2_png_qsrmlc.png">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1540465208/moster-promo-IN-PRODUCTION_wiu9w5.png">
         <br/><br/>
-        <p>Any and all quenstions must be sent <a href="mailto:gritcitycomics@gmail.com">here</a></p>
+        <p><b>Open call is closed at this time.If you've made a submission, you will be receiving an email soon. Any and all quenstions must be sent <a href="mailto:gritcitycomics@gmail.com?subject=Question">here</a>.</b></p>
         <accordion
         :dropdown="true"
         :icon="'caret'"
@@ -93,7 +89,7 @@
                   <li>All files will be sent via Dropbox link.</li>
                 </ul>
                 <div slot="content" class="has-text-centered">
-                  <router-link :to="'/submission'" class="button center-button is-black is-large">Make a submission</router-link>
+                  <a class="button center-button is-black is-large" href="mailto:gritcitycomics@gmail.com?subject=Submission">Make a submission</a>
                 </div>
             </accordion-item>
             <accordion-item>
@@ -114,11 +110,11 @@
                 <li><strong>October 31</strong> - Acceptance emails sent.</li>
                 <li><strong>November 1</strong> - Preproduction starts. <p>Start writing comic scripts with your two chosen characters. You are welcome to start initial rough art and layouts BUT please be able to make changes if needed.</p></li>
                 <li><strong>December 1</strong> - First Drafts turned in for review.</li>
-                <li><strong>December 1 through December 30</strong> - Editing and rewrites. <p>During this month, we will review the scripts,provide edits and make suggestions.</p></li>
+                <li><strong>December 1 through December 30</strong> - Editing and rewrites. <p>During this month, we will review the scripts,provide edits and make suggestions. Once you get a final draft approved, you can start production.</p></li>
                 <li><strong>January 1</strong> - Final Scripts deadline. <p>The final version of your script will be turned in. Grammar and misspellings will still be reviewed by the editor BUT the art production will commence with this version of the script.</p></li>
-                <li><strong>January 2</strong> - Art Production will begin. <p>The artist can officially begin production. Letters will hold off until editor has delivered final edits.</p></li>
+                <li><strong>January 1</strong> - Art Production will begin. <p>The artist can officially begin production. Letters will hold off until editor has delivered final edits.</p></li>
                 <li><strong>March 1</strong> - At least show some roughs and lettering. <p>We just need to know that the art is on track and the lettering is acceptable.</p></li>
-                <li><strong>April 1</strong> - Soft Deadline for Final Art <p>We just need to know that the art is on track and the lettering is acceptable.</p></li>
+                <li><strong>April 1</strong> - Show current progress <p> show us your current process unless you have already been keeping us up to date on the Facebook group, which we recommend. We just need to know that the art is on track and the lettering is acceptable.</p></li>
                 <li><strong>May 1</strong> - FINAL ART DEADLINE <p>Final art will be delivered by this date. Any errors after this point will be denied entry.</p></li>
                 <li><strong>August-September</strong> - Kickstarter Campaign <p>Depending on when we can have everything ready, we hope to begin the Kickstarter around August/September.</p></li>
               </ul>
