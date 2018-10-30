@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar></navbar>
-    <carousel class="hero is-small"
+    <!-- <carousel class="hero is-small"
       :autoplay="true"
       :navigationEnabled="true"
       :scrollPerPage="true"
@@ -54,7 +54,7 @@
       <slide>
         <img class="slide" src="https://res.cloudinary.com/drg9hguhu/image/upload/v1535708972/Layer_18_mtkdvb.png">
       </slide>
-    </carousel>
+    </carousel> -->
     <div class="container">
       <div class="content is-medium ">
         <img src="https://res.cloudinary.com/drg9hguhu/image/upload/v1534653212/moster_logo_ver_2_png_qsrmlc.png">
@@ -113,8 +113,8 @@
                 <li><strong>December 1 through December 30</strong> - Editing and rewrites. <p>During this month, we will review the scripts,provide edits and make suggestions. Once you get a final draft approved, you can start production.</p></li>
                 <li><strong>January 1</strong> - Final Scripts deadline. <p>The final version of your script will be turned in. Grammar and misspellings will still be reviewed by the editor BUT the art production will commence with this version of the script.</p></li>
                 <li><strong>January 1</strong> - Art Production will begin. <p>The artist can officially begin production. Letters will hold off until editor has delivered final edits.</p></li>
-                <li><strong>March 1</strong> - At least show some roughs and lettering. <p>We just need to know that the art is on track and the lettering is acceptable.</p></li>
-                <li><strong>April 1</strong> - Show current progress <p> show us your current process unless you have already been keeping us up to date on the Facebook group, which we recommend. We just need to know that the art is on track and the lettering is acceptable.</p></li>
+                <li><strong>March 1</strong> - Show current progress <p> show us your current process unless you have already been keeping us up to date on the Facebook group, which we recommend. We just need to know that the art is on track and the lettering is  acceptable.</p></li>
+                <li><strong>April 1</strong> - Soft deadline for Final Art <p>We’d  like  to  see  all  final  art  delivered  by  this  date.  We  will  give  a  month  to  make  any  adjustments  or  future  edits  before  a  definitive  final  will  be  delivered. </p></li>
                 <li><strong>May 1</strong> - FINAL ART DEADLINE <p>Final art will be delivered by this date. Any errors after this point will be denied entry.</p></li>
                 <li><strong>August-September</strong> - Kickstarter Campaign <p>Depending on when we can have everything ready, we hope to begin the Kickstarter around August/September.</p></li>
               </ul>
