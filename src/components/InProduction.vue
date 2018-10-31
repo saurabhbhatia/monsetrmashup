@@ -78,7 +78,7 @@
                 <ul slot="content">
                   <li>1-8 pages</li>
                   <li>U.S. Standard format (6.75 x 10.25). Check the template <a href="https://ka-blam.com/main/standard-sized-page-template/" target="blank">here</a>.</li>
-                  <!-- <li>1-8 pages</li> -->
+                  <li>The delivered document size is 7x10.5. The trim size is 6.75x10.25 with a live area of 6.25x9.75</li>
                   <li>CMYK 300 dpi TIFF files.</li>
                   <li>Full Color/Black and White</li>
                   <li>NO 2 page spreads</li>
